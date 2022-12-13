@@ -27,7 +27,7 @@ def query_example():
     # Video Path
     # video_name = "temp/" + video_name
     video_name = video_name.replace(" ", "%20")
-    video_name = f"https://github.com/Shodkk/youtube_downloader_flask_app/blob/main/temp/{video_name}?raw=true"
+    video_name = f"https://github.com/shaantanu9/youtube_downloader_flask_app/blob/main/temp/{video_name}?raw=true"
     # return send_file(video_name, mimetype='video/mp4')
     # return send_file(video_name, mimetype='video/mp4', as_attachment=True, attachment_filename=title + ".mp4")
     # return render_template('/template/download.html', video_name=video_name, title=title)
