@@ -3,3 +3,24 @@
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
  * Running on http://127.0.0.1:5000
 Press CTRL+C to quit
+[main f2d2e7d] deploy
+ Committer: Ubuntu <ubuntu@ip-172-31-36-157.ap-south-1.compute.internal>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 78 insertions(+)
+ create mode 100644 __pycache__/push_to_github.cpython-310.pyc
+ create mode 100644 __pycache__/ytdownload.cpython-310.pyc
+ create mode 100644 nohup.out
+ create mode 100644 r.txt
+fatal: could not read Username for 'https://github.com': No such device or address
+127.0.0.1 - - [13/Dec/2022 12:48:41] "GET /download?link=https://www.youtube.com/shorts/2vUdkzbXbko HTTP/1.1" 302 -
